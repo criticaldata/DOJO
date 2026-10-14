@@ -714,6 +714,20 @@ h3 {
   background: var(--color-terracotta);
 }
 
+.paper-card + .paper-card {
+  margin-top: 1rem;
+}
+
+.paper-card + .paper-list {
+  margin-top: 1.5rem;
+}
+
+.paper-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.4rem;
+}
+
 .paper-card__index,
 .paper-item__index {
   color: rgba(255, 253, 249, 0.74);
