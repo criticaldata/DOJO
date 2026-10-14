@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/dojo-logo.gif" alt="DOJO, Distributed Open Justice Oversight" width="560"></p>
+
 # DOJO: Distributed Open Justice Oversight
 
 DOJO is an open, community-driven platform for continuous adversarial evaluation of clinical AI, led by [MIT Critical Data](https://criticaldata.mit.edu). It tests a health AI system as a system, across three connected planes: the data that shapes a model, the model itself, and the clinical workflow in which people rely on it. Findings stay linked to the model, data, evaluator, environment and re-test that produced them, so a claim about readiness can be traced and repeated.
