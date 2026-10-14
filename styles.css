@@ -148,11 +148,21 @@ a {
 .institutional-mark img {
   display: block;
   flex: 0 0 auto;
-  width: 4.4rem;
-  height: 1.35rem;
-  object-fit: cover;
+  width: auto;
+  height: 2.45rem;
+  object-fit: contain;
   object-position: center;
   mix-blend-mode: multiply;
+}
+
+/* the logo already reads "MIT Critical Data"; keep the text for screen readers only */
+.institutional-mark span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 .institutional-mark:hover,
@@ -998,8 +1008,9 @@ h3 {
   gap: 1rem;
 }
 
-.institutional-mark--footer {
-  font-size: 0.62rem;
+.institutional-mark--footer img,
+.institutional-mark--section img {
+  height: 2rem;
 }
 
 .anatomy-mark {
@@ -1292,6 +1303,10 @@ html.js-enabled [data-reveal].is-visible {
 
   .brand__mark {
     width: 2.15rem;
+    height: 2.15rem;
+  }
+
+  .institutional-mark img {
     height: 2.15rem;
   }
 
