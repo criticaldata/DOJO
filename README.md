@@ -1,25 +1,24 @@
-# DOJO Website
+# DOJO: Distributed Open Justice Oversight
 
-The public DOJO website explains Distributed Open Justice Oversight, an open and community-driven platform for adversarial evaluation of clinical AI systems.
+DOJO is an open, community-driven platform for continuous adversarial evaluation of clinical AI, led by [MIT Critical Data](https://criticaldata.mit.edu). It tests a health AI system as a system, across three connected planes: the data that shapes a model, the model itself, and the clinical workflow in which people rely on it. Findings stay linked to the model, data, evaluator, environment and re-test that produced them, so a claim about readiness can be traced and repeated.
 
-The single-page site presents DOJO through three compact ideas: what it is, how its data/model/clinical-workflow architecture works, and the disciplines that shape the project. Research links and contribution routes stay available without turning the page into a long technical document.
+Website: [criticaldata.github.io/dojo](https://criticaldata.github.io/dojo/)
 
-The complete public website is live at [criticaldata.github.io/dojo](https://criticaldata.github.io/dojo/).
+## Papers
 
-## Run locally
+| Paper | Venue | Links |
+|---|---|---|
+| Distributed Open Justice Oversight (DOJO): A Community-Driven, Modality-Agnostic Platform for Adversarial Evaluation of Health AI | SSRN preprint, 2026 | [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6676818) |
+| Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems | MICCAI 2026 MedAgent Workshop (LNCS) | [arXiv](https://arxiv.org/abs/2608.03744) · [code](https://github.com/criticaldata/benchmaxxing) |
+| ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs | arXiv preprint, 2026 | [arXiv](https://arxiv.org/abs/2609.15635) · [code](https://github.com/criticaldata/MODALENS) |
+| Towards a Deterministic Math Solver for Clinical Language Models | NeurIPS 2026 Global South CV Workshop (accepted) | [arXiv](https://arxiv.org/abs/2609.10728) · [code](https://github.com/felipeocampoos/BODHI-Medcalc-NeurIPS) |
 
-From the repository root, run:
+## Contact
 
-```bash
-python3 -m http.server 4173
-```
+- Leo Anthony Celi, Principal Investigator ([lceli@mit.edu](mailto:lceli@mit.edu))
+- Sebastián Cajas Ordóñez ([sebasmos@mit.edu](mailto:sebasmos@mit.edu))
+- Yehudhah Rodriguez ([yehudhah.rodriguez@yachaytech.edu.ec](mailto:yehudhah.rodriguez@yachaytech.edu.ec))
 
-Then open [http://127.0.0.1:4173/](http://127.0.0.1:4173/).
+Collaboration, contributions and institutional questions: [open an issue](https://github.com/criticaldata/dojo/issues).
 
-This is a static HTML, CSS, and JavaScript website. It does not contain clinical data, credentials, API keys, or live evaluation services. Never commit those materials to this repository.
-
-The live site is a static HTML, CSS, and JavaScript website. It describes the evaluation concept and contribution model; it does not claim regulatory approval, universal clinical safety, or patient-outcome benefit.
-
-## GitHub Pages
-
-GitHub Pages publishes the repository root from the `feat/dojo-website-native` branch. Pushing updates to that branch updates the public site. The root `index.html`, `.nojekyll`, `404.html`, and `robots.txt` files support this deployment.
+The site is static (HTML, CSS, JavaScript) and holds no clinical data, credentials, API keys or live evaluation services; never commit those here. It describes an evaluation concept and a contribution model, not a regulatory approval, a universal safety claim or a patient-outcome benefit.
